@@ -1,0 +1,88 @@
+*
+{
+    margin:2;
+    padding: 2;
+    
+}
+
+ 
+h1{
+    display:flex;
+    background-color: rgb(32, 3, 64);
+    color: rgb(235, 224, 224);
+    height:6rem;
+    line-height: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+.choice
+{
+    width:10rem;
+    height:10rem;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height:150px;
+    width: 150px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+.choice:hover{
+    opacity:2;
+    cursor:pointer;
+    background-color:black;
+}
+.choices{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.score-board
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.msg-container
+{   
+    
+   margin-top: 1rem;
+    margin-bottom: 1rem;
+   justify-content: center;
+    
+}
+#msg
+{
+    display:flex;
+   justify-self: center;
+    background-color: rgb(238, 82, 144);
+    font-size:2rem;
+    color:rgb(43, 0, 128);
+    padding: 1rem;
+    border-radius: 5rem;
+}
+.result_score
+{   
+    
+   margin-top: 1rem;
+    margin-bottom: 1rem;
+   justify-self: center;
+    
+}
+#res
+{
+    display:inline;
+    background-color: rgb(238, 82, 144);
+    font-size:2rem;
+    color:rgb(43, 0, 128);
+    padding: 1rem;
+    border-radius: 1rem;
+}
